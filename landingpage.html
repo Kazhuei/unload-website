@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unload</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background: rgba(0, 0, 0, 0.6);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 100;
+    }
+
+    header h1 {
+      font-size: 24px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #00aaff;
+    }
+
+    .hero {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    .hero h2 {
+      font-size: 48px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .btns {
+      display: flex;
+      gap: 15px;
+    }
+
+    .btns a {
+      padding: 12px 25px;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: 500;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .btn-primary {
+      background: #00aaff;
+      color: #fff;
+    }
+
+    .btn-primary:hover {
+      background: #008fcc;
+    }
+
+    .btn-secondary {
+      background: #fff;
+      color: #000;
+    }
+
+    .btn-secondary:hover {
+      background: #ddd;
+    }
+
+    section {
+      padding: 80px 20px;
+      background: rgba(0, 0, 0, 0.7);
+      margin-top: 80px;
+    }
+
+    section h3 {
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    section p {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+      line-height: 1.6;
+      font-size: 18px;
+    }
+
+    footer {
+      background: rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Unload</h1>
+    <nav>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how">How It Works</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#login">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Welcome to Unload</h2>
+    <p>Your safe space to rant, vent, and feel heard.</p>
+    <div class="btns">
+      <a href="#register" class="btn-primary">Get Started</a>
+      <a href="#login" class="btn-secondary">Login</a>
+    </div>
+  </div>
+
+  <section id="about">
+    <h3>About Unload</h3>
+    <p>
+      Unload is a safe space where you can express your feelings without judgment. Whether you're sad, stressed, or just want to share what's on your mind, Unload listens and responds in a natural, supportive, and relatable way — like a true friend. Our goal is to provide comfort, validation, and companionship through every mood.
+    </p>
+  </section>
+
+  <section id="how">
+    <h3>How It Works</h3>
+    <p>
+      Simply create an account, log in, and start chatting. Type whatever’s on your mind — from rants, funny stories, to your deepest worries — and Unload will respond in the same vibe, whether playful, serious, or comforting. You can also access quick grounding tools when you need to breathe, reflect, or calm down.
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Unload. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
